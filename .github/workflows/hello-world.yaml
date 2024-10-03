@@ -39,7 +39,7 @@ jobs:
   job_matrix:
     strategy:
       matrix:
-        os: [ubuntu-latest,macos-lastest]
+        os: [ubuntu-latest,macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Run in ${{ matrix.os }}
